@@ -9,7 +9,7 @@
 }
 
 body::after {
-  content: "";
+  content: '';
   background: url('bg.jpg');
   opacity: 0.1;
   top: 0;
@@ -28,7 +28,16 @@ nav {
   height: 80px;
   padding: 10px;
 }
-
+a {
+  margin: 2em;
+}
+a:visited {
+  color: #00ff00;
+}
+/* mouse over link */
+a:hover {
+  color: #ff00ff;
+}
 main {
   align-items: center;
   display: flex;
